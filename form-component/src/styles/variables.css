@@ -1,0 +1,9 @@
+:root {
+  --primary-green: #125e41;
+  --secondary-grey: #6f6f6f;
+  --primary-grey: #ccc;
+  --text-heading-color: rgb(33, 33, 33);
+  --text-subheading-color: rgb(121, 121, 121);
+  --heading-font-size: 40px;
+  --subheading-font-size: 16px;
+}

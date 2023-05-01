@@ -1,0 +1,65 @@
+.form-container .input-fields {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.form-container .input-fields label {
+  color: rgb(19, 19, 19);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.form-container .input-fields input {
+  border: none;
+  border-bottom: 1px solid var(--primary-grey);
+  padding: 5px;
+  outline: none;
+}
+
+.form-container .input-fields input:focus {
+  border-bottom: 1px solid black;
+  background-color: none;
+}
+
+.form-container .input-fields select {
+  border: 1px solid var(--primary-grey);
+  background-color: white;
+  padding: 5px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.radio-container,
+.course-container {
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.course-item input {
+  margin-left: 5px;
+}
+
+.radio-container label,
+.course-container label {
+  color: rgb(126, 126, 126);
+  font-weight: normal;
+}
+
+.form-container .input-fields button {
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #2ac285;
+  border-radius: 5px;
+  font-size: var(--subheading-font-size);
+  font-weight: 600;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.form-container .input-fields button:hover {
+  background-color: var(--primary-green);
+}

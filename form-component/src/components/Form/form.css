@@ -1,0 +1,70 @@
+@import url("../../styles/variables.css");
+
+/*------ FORM CSS -------- */
+#root {
+  background-image: linear-gradient(
+    to right top,
+    var(--primary-green),
+    #59e2ae,
+    #6bcca7,
+    #59d3a4,
+    var(--secondary-grey)
+  );
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  width: 100%;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgb(84, 84, 84);
+  background-color: white;
+}
+
+.form-container h1 {
+  margin-bottom: 16px;
+  color: var(--text-heading-color);
+  font-size: var(--heading-font-size);
+}
+
+.form-container p {
+  color: var(--text-subheading-color);
+  font-size: var(--subheading-font-size);
+  margin-bottom: 20px;
+}
+
+.form-container .label-error {
+  color: red;
+}
+
+.form-container form {
+  background-color: transparent;
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+}
+
+.form-container .image-container img {
+  max-width: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 380px) and (max-width: 1028px) {
+  .form-container {
+    max-width: 400px;
+    margin: 30px;
+  }
+  .form-container .image-container {
+    display: none;
+  }
+}
